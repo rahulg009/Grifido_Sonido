@@ -484,6 +484,7 @@ Base.inject({
 					} else {
 						res = Base.create(type.prototype);
 						type.apply(res, args);
+						
 					}
 				}
 			} else if (Base.isPlainObject(json)) {
